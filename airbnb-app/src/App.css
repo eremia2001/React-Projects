@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*
+{
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body
+{
+  margin:0 ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App
+{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 95vh;
+  align-items: center; 
+  box-shadow: 0 2px 3px;
+  background-color: white;
+  border-radius: 10px;
+}
+.header
+{
+  width: 60vw;
+}
+
+
+.header-navBar
+{
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  box-shadow: 0 3px 10px #898989 ; 
+}
+.header-logo
+{
+  width: 10vw;
+}
+.header-groupPhotoContainer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh;
+}
+
+.header-groupPhoto
+{
+  width: 35vw;
+}
+
+.bottom-container
+{
+  margin-left: 2vw;
+  height: 50vh;
+}
+.bottom-img
+{
+  width: 19vw;
+  height: 28vh;
+  border-radius: 10px;
+}
+
+.bottom-cards
+{
+  display: flex;
+  flex-direction: row;
+}
+.card-soldOut
+{
+  position: absolute;
+  margin: 0.6vw 0.7vw;
+  padding: 0.3vw;
+  background-color: white;
+  font-family: 'Poppins';
+}
+
+.bottom-imgContainer
+{
+  height: 40vh;
+  font-size: 12px;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+.bottom-singleImgContainer
+{
+  display: flex;
+  align-items: center;
+}
+.bottom-star
+{
+  width: 2vw;
+}
+.bottom-singleImgContainer p 
+{
+  padding-left: 0.3vw;
+}
+.bottom-stats p
+{
+  padding: 0;
+  margin: 0;
+
+}
+.bottom-imgContainer p 
+{
+  color:#222222 ;
+}

@@ -1,0 +1,16 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.joke-container
+{
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.singleJoke
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

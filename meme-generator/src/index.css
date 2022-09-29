@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Karla:wght@400;700&display=swap');
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body,html
+{
+  margin: 0;
+  padding: 0;
+}
+.App
+{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header-container
+{
+  max-height: 12vh;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vh;
+  flex:1;
+}
+.header-title
+{
+  margin-left: 1vh;
+  font-family: 'Karla' ,'sans-serif';
+}
+.header-courseName
+{
+  font-family: 'Inter', 'sans-serif';
+}
+
+.header-titleContainer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-memeImg
+{
+  width: 70px;
+}
+
+.mainContent-container
+{
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  flex: 1;
+  overflow: hidden;
+  padding: 40px;
+  
+}
+.mainContent-inputContainer
+{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 2vw;
+}
+.mainContent-newMemeContainer
+{
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.mainContent-input
+{
+  flex: 1;
+  height: 60px;
+  border-radius: 5px;
+  border-color: #D5D4D8;
+  border-style:double;
+  padding: 20px;
+  color: #0D0D0D;
+
+ 
+}
+.mainContent-button
+{
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  min-height: 8vh;
+  border-radius: 7px;
+  font-size: 1.5rem;
+  margin-bottom: 3vh;
+  border: none;
+  flex: 1;
+}
+
+.mainContent-memeImg
+{
+  background-color: black;
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+}
+.mainContent-memeImg p 
+{
+  color: white;
+  position: absolute;
+  margin-left: 40vw;
+  font-size: 2rem;
+  
+}
+
+
+.botMessage
+{
+  margin-top:53vh;
+}
+
+
+
+.memeImg
+{
+  flex:1;
+}
+
+
+
+
